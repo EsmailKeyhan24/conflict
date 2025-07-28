@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+#about{
+    width: 100%;
+    height: 80vh;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    padding-block: 30px;
+    >.row{
+        width: 100%;
+        height: 100%;
+        border:5px solid gold;
+        display: flex;
+        flex-wrap: wrap;
+        >*{
+            width: 50%;
+            height: 100%;
+            border:4px solid white;
+        }
+        >.about_content{
+            padding: 20px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color:white;
+        }
+    }
+}
